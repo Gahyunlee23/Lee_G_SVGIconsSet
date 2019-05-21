@@ -32,3 +32,11 @@ body { font-size: 1rem; }
 .st1:hover { opacity: 1; fill: #CC6666;}
 
 .st2:hover { opacity: 1; fill: #CC6666}
+
+/* THESE ARE DYNAMIC STYLES */
+
+.selected {
+  color: blue !important;
+  text-transform: uppercase;
+  font-size: italic;
+}
