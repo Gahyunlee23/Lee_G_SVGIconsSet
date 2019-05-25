@@ -1,42 +1,59 @@
-body { font-size: 1rem; }
-
-.hidden { display: none; }
-
-.main-headline {
-  text-align: center;
-  margin: 20px 0 30px;
-  font-size: 2.5rem;
+.main-title {
+    text-align: center;
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
 
-#raster-vector h3 { margin: 20px; text-align: center; }
-
-#image-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.main-title h1 {
+    margin-top: 40px;
+    font-size: 2rem;
 }
 
-#image-container img {
-  width: 30%;
-  min-width: 155px;
-  max-width: 375px;
-  align-self: center;
+.main-title h2 {
+    font-size: 16px;
+    padding: 5px;
 }
 
-/*inline SVG css styles */
+#popup {
+    margin-left: 850px;
+    margin-top: 10px;
+    font-family: montana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 5px;
+}
 
-#badge { cursor: pointer; width: 30%; }
-
-.st0:hover { opacity: 1; fill: #FFFFFF; }
-
-.st1:hover { opacity: 1; fill: #CC6666;}
-
-.st2:hover { opacity: 1; fill: #CC6666}
-
-/* THESE ARE DYNAMIC STYLES */
+.st0:hover { opacity: 0.5; fill: #e5ea88; }
+.st1:hover { opacity: 1; fill: #2befce; }
+.st3:hover { opacity: 1; fill: #dbb88b; }
+.st5:hover { opacity: 1; fill: #007aff; }
+.st6:hover { opacity: 1; fill: #ff0080; }
+.st9:hover { opacity: 0.3; fill: #a5a5a5; }
+.st10:hover { opacity: 0.5; fill: #bbe872; }
+.st11:hover { opacity: 0.7; fill: #f43737; }
+.st12:hover { opacity: 0.8; fill: #ff3600; }
+.st14:hover { opacity: 1; fill: #ff5b00; }
+.st15:hover { opacity: 1; fill: #ff5b00; }
+.st16:hover { opacity: 1; fill: #ff5b00; }
+.st17:hover { opacity: 0.9; fill: #00ff22; }
+.st18:hover { opacity: 0.8; fill: #ffffff; }
+.st19:hover { opacity: 0.2; fill: #ffffff; }
+.st22:hover { opacity: 1; fill: #fffb00; }
+.st24:hover { opacity: 1; fill: #fffb00; }
+.st25:hover { opacity: 0.2; fill: #ffffff; }
+.st26:hover { opacity: 0.4; fill: #ffffff; }
+.st27:hover { opacity: 7; fill: #000000; }
+.st28:hover { opacity: 1; fill: #d0ff00; }
+.st28:hover { opacity: 0.7; fill: #ffce00; }
+.st31:hover { opacity: 1; fill: #ffcc66; }
+.st32:hover { opacity: 0.7; fill: #ffff00; }
+.st33:hover { opacity: 0.8; fill: #fcef4c; }
 
 .selected {
-  color: blue !important;
-  text-transform: uppercase;
-  font-size: italic;
+    color: #FF9E80 !important;
+    text-transform: uppercase;
+    font-size: 2rem;
 }
+
