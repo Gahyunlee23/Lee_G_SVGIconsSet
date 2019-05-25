@@ -25,6 +25,26 @@
     padding: 5px;
 }
 
+.image-container {
+    width: 1.5in;
+    min-width: 155px;
+    max-width: 375px;
+    margin-left: 700px;
+    margin-bottom: 750px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    p{
+        font-size: 0rem;
+    }
+}
+
 .st0:hover { opacity: 0.5; fill: #e5ea88; }
 .st1:hover { opacity: 1; fill: #2befce; }
 .st3:hover { opacity: 1; fill: #dbb88b; }
@@ -50,6 +70,10 @@
 .st31:hover { opacity: 1; fill: #ffcc66; }
 .st32:hover { opacity: 0.7; fill: #ffff00; }
 .st33:hover { opacity: 0.8; fill: #fcef4c; }
+
+
+
+
 
 .selected {
     color: #FF9E80 !important;

@@ -4,8 +4,7 @@
 
     let mainLine = document.querySelector(".main-title")
         convertButton = document.querySelector(".magic Button")
-
-        
+        loadButton = document.querySelector(".image-container Button")
 
 
     function changeText() {
@@ -13,7 +12,14 @@
         mainLine.classList.toggle("selected");
     }
 
-    convertButton.addEventListener("click", changeText);
+    
+    function loadTheSVG () {
+        console.log(this.previousElementSibling.id);
+    }
 
+
+    convertButton.addEventListener("click", changeText);
+   
+    loadButton.addEventListener("click", loadTheSVG);
 
 })();
